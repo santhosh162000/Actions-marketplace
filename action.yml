@@ -1,4 +1,8 @@
 name: Pull Request indication
+description: This is an action to indicate new pull requestes
+branding:
+  icon: 'git-pull-request'
+  color: 'yellow'
 
 on:
   pull_request
