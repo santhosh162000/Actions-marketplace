@@ -7,9 +7,7 @@ branding:
 on:
   pull_request
 
-jobs:
-  indication_job:
-    runs-on: ubuntu-latest
+runs:
     env:
       Greeting: Hello
     steps:
