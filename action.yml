@@ -8,10 +8,8 @@ on:
   pull_request
 
 runs:
+  - name: "Indicating during new pull request"
+    run: echo "$Greeting $First_Name !. You have one new pull request"
     env:
+      First_Name: codester
       Greeting: Hello
-    steps:
-      - name: "Indicating during new pull request"
-        run: echo "$Greeting $First_Name !. You have one new pull request"
-        env:
-          First_Name: codester
