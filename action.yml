@@ -10,4 +10,4 @@ runs:
     - name: Indicating new pull request
       shell: bash
       run: |
-        echo "Hello"
+        echo "Hello, there is new pull request"
