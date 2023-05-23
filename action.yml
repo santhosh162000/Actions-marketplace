@@ -11,3 +11,11 @@ runs:
       shell: bash
       run: |
         echo "Hello, there is new pull request"
+        
+    - name: Testing loop
+      shell: bash
+      run: |
+        for i in {1..5}
+        do
+          echo "Welcome $i times"
+        done
